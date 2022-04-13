@@ -14,3 +14,7 @@
     /* set the background to be fixed so the page appears to scroll over it */
     background-attachment: fixed;
 }
+
+.card#tennis{
+    background-image: url("../images/TennisRackets.jpg") ;
+  }
