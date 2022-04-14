@@ -42,10 +42,10 @@
 </br>
 </br>
   <div class="container col-md-6" > 
-    <form>
+    <form action="Products.html" method="GET">
         <div class="mb-3 col-6">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3 col-6">
@@ -56,12 +56,12 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#SignIn">Submit</button>
+        <button type="submit" class="btn btn-primary text-center">Submit</button>
       </form>
     </div>
 
 <!-- Modal -->
-<div class="modal fade" id="SignIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -78,16 +78,7 @@
       </div>
     </div>
   </div>
-
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>
-    <div class="container-fluid">
+    <div class="container-fluid fixed-bottom">
         <footer>
           <!-- Bootstrap Navbar with updated classes (navbar-dark, bg-dark) from the example to give us a dark themed Navbar-->
           
